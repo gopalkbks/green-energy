@@ -39,7 +39,7 @@ function eventHandler(ev){
     //console.log(btnText);
     
     if (btnText === "PAGE 1") {
-        $content.innerHTML = `<div><h3>${dataResorce[0].heading}</h3></div>
+        $content.innerHTML = `<h3>${dataResorce[0].heading}</h3>
                               <img src="${dataResorce[0].imgUrl}" alt="placeholder">
                               <p>${dataResorce[0].bodyText}</p>`;
     } else if (btnText === "PAGE 2") {

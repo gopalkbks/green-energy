@@ -29,11 +29,9 @@
     .sm {
     height: 10px;
     }
-
     li {
     float: left;
     }
-
     li a {
     display: block;
     color: #171555;
@@ -45,7 +43,6 @@
     font-weight: bold;
     font-size: 1rem; 
     }
-
     li a:hover {
     background-color: #D9FF2E;
     }
@@ -56,20 +53,17 @@
     .sm1 {
     padding-top: 3rem;
     }
-
     footer {
     display: block;
     margin: 0;
     }
-    
     i {
     padding-top: 2.5rem;
-    padding-bottom: 2.5rem; 
+    padding-bottom: 2.5rem;
     }
-img {
+    img {
     margin-right: 2rem;
-}
-
+    }
     footer p {
     font-family: 'Didact Gothic', sans-serif;
     font-size: 1rem;
@@ -94,6 +88,9 @@ img {
 
     footer p {
     padding-left: 30px;
+    }
+    h3 {
+    font-family: 'Didact Gothic', sans-serif;
     }
 
 
@@ -124,32 +121,31 @@ img {
     text-align: left;
     }
     img {
-        max-width: 100%;
+    max-width: 100%;
     }
     }
     @media only screen and (min-width: 30rem) and (max-width: 60rem) {
     body {
     margin: 2rem 3rem;
-    
     }
     img {
-        float : left;
-        width: 25%;
+    float : left;
+    width: 25%;
     }
     footer {
-        clear: both;
+    clear: both;
     }
     }
-@media only screen and (min-width: 60rem) {
+    @media only screen and (min-width: 60rem) {
     body {
-        max-width: 60rem;
-        margin: 0 auto;
+    max-width: 60rem;
+    margin: 0 auto;
     }
     img {
-        float : left;
-        width: 25%;
+    float : left;
+    width: 25%;
     }
     footer {
-        clear: both;
+    clear: both;
     }
     }
